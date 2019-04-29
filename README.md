@@ -2,6 +2,9 @@
 Peer-graded Assignment: Getting and Cleaning Data Course Project
 This repository is a submission for Getting and Cleaning Data course project created by Pruthvi Bhaskar Tadala.
 
+# Data
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 Files
 •	CodeBook.md , a code book file that provides brief description about the data, variables and  transformations that I did to perform the data cleansing.
 1.	Run_analysis.R has the code that performs the necessary data preparation followed by the 5 steps required as described in the course project’s definition:
