@@ -1,7 +1,7 @@
 Run_Analysis.R downloads and performs the data preparation followed by 5 steps as described in course. 
 1.	Downloading the dataset
 o	Dataset is downloaded and extracted in the folder called UCI Har Dataset.
-
+<li>
 2.	Assign each data to the variables
 o	features <- features.txt  
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals. It has data of 561 rows and 2 columns.
@@ -12,13 +12,15 @@ comprises of test data of volunteer test subjects. It has data of 2947 rows and 
 o	x_test <- test/X_test.txt 
 comprises of recorded features test data. It has data of 2947 rows and 561 columns.
 o	y_test <- test/y_test.txt 
-comprises of test data of activities ‘code labels. It has data of 2947 rows and 1 column.
+comprises of test data of activities â€˜code labels. It has data of 2947 rows and 1 column.
 o	subject_train <- test/subject_train.txt 
 comprises of train data of volunteer test subjects. It has data of 7352 rows and 1 column.
 o	x_train <- test/X_train.txt 
 comprises of recorded features train data. It has data of 7352 rows and 561 columns.
 o	y_train <- test/y_train.txt  
-comprises of train data of activities ‘code labels. It has data of 7352 rows and 1 column.
+comprises of train data of activities â€˜code labels. It has data of 7352 rows and 1 column.
+  <\li>
+    
 
 3.	Merges the training and the test sets to create one data set
 o	X_Train_Bind is created by merging the x_train and x_test data by using rbind() function. It has data of 10299 rows and 561 columns.
